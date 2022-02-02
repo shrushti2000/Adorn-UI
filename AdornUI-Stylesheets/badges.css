@@ -1,22 +1,22 @@
 h1 {
-  font-size: 32px;
+  font-size: 3.2rem;
 }
 h2 {
-  font-size: 24px;
+  font-size: 2.4rem;
 }
 h3 {
-  font-size: 18.72px;
+  font-size: 1.8rem;
 }
 h4 {
-  font-size: 16px;
+  font-size: 1.6rem;
 }
 h5 {
-  font-size: 12px;
+  font-size: 1.2rem;
 }
 .badge {
   padding: 0.2rem 0.7rem;
   margin: 0.5rem;
-  border-radius: 5px;
+  border-radius: 0.5rem;
   font-size: 0.75em;
 }
 .badge-primary {
@@ -47,8 +47,8 @@ h5 {
 }
 .badge-w-icon {
   position: absolute;
-  top: -15px;
-  right: -20px;
+  top: -1.5rem;
+  right: -2rem;
   background-color: grey;
   border-radius: 50%;
   background-color: var(--primary-bg-color);
@@ -79,18 +79,18 @@ h5 {
   border-radius: 50%;
 }
 .bottom-right-lg {
-  bottom: 5px;
-  right: 12px;
-  width: 20px;
-  height: 20px;
-  border: 3px solid white;
+  bottom: 0.5rem;
+  right: 1.2rem;
+  width: 2rem;
+  height: 2rem;
+  border: 0.3rem solid white;
 }
 .bottom-right-sm {
-  bottom: 0px;
-  right: 3px;
-  width: 12px;
-  height: 12px;
-  border: 3px solid white;
+  bottom: 0rem;
+  right: 0.3rem;
+  width: 1.2rem;
+  height: 1.2rem;
+  border: 0.3rem solid white;
 }
 .online {
   background-color: green;
