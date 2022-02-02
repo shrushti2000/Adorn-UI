@@ -1,0 +1,32 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Exo:wght@100&family=Raleway:wght@200&family=Roboto+Slab:wght@100;200&family=Source+Serif+4:wght@300&display=swap");
+@import "./page-layout.css";
+@import "./doc.css";
+@import "./avatar.css";
+@import "./badges.css";
+html {
+  font-size: 62.5%;
+}
+:root {
+  --primary-bg-color: #e2c2b9;
+  --secondary-bg-color: #f2ddc1;
+  --primary-text-color: #694e4e;
+  --secondary-text-color: #444941;
+  --white: #ffffff;
+  --black: #000000;
+}
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Raleway", sans-serif;
+  overflow: hidden;
+}
+@media only screen and (max-width: 720px) {
+  html {
+    font-size: 50%;
+  }
+  iframe {
+    width: 50%;
+  }
+}

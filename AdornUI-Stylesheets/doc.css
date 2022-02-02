@@ -1,0 +1,40 @@
+.component-doc-container {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  padding: 1rem;
+  margin: 0.5rem;
+}
+.component-title {
+  font-size: 5rem;
+  color: var(--primary-text-color);
+  margin: 1rem;
+  font-weight: bold;
+}
+.component-subtitle {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.component-desc {
+  font-size: 2rem;
+  color: var(--secondary-text-color);
+  margin: 1rem;
+}
+.component-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+.component-container-hz {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  align-items: center;
+}
+iframe {
+  margin: 1rem;
+}

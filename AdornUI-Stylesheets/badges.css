@@ -1,0 +1,105 @@
+h1 {
+  font-size: 3.2rem;
+}
+h2 {
+  font-size: 2.4rem;
+}
+h3 {
+  font-size: 1.8rem;
+}
+h4 {
+  font-size: 1.6rem;
+}
+h5 {
+  font-size: 1.2rem;
+}
+.badge {
+  padding: 0.2rem 0.7rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 0.75em;
+}
+.badge-primary {
+  background-color: var(--primary-bg-color);
+  color: var(--white);
+}
+.badge-secondary {
+  background-color: var(--secondary-text-color);
+  color: var(--white);
+}
+.badge-round-pill {
+  border-radius: 50em;
+  background-color: var(--secondary-text-color);
+  color: var(--white);
+}
+.badge-w-icon-container {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  padding: 2rem;
+}
+.fa-shopping-cart,
+.fa-heart,
+.fa-comment {
+  font-size: 5rem;
+  position: relative;
+  color: var(--secondary-text-color);
+}
+.badge-w-icon {
+  position: absolute;
+  top: -1.5rem;
+  right: -2rem;
+  background-color: grey;
+  border-radius: 50%;
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+  display: inline-block;
+  min-width: 1em;
+  padding: 0.3em;
+  font-size: 2rem;
+  text-align: center;
+}
+.status-badge {
+  flex-direction: row;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.avatar-presence-wrapper {
+  position: relative;
+  display: inline-block;
+}
+.image-large {
+  width: 12.8rem;
+  height: 12.8rem;
+  border-radius: 50%;
+}
+.status {
+  position: absolute;
+  border-radius: 50%;
+}
+.bottom-right-lg {
+  bottom: 0.5rem;
+  right: 1.2rem;
+  width: 2rem;
+  height: 2rem;
+  border: 0.3rem solid white;
+}
+.bottom-right-sm {
+  bottom: 0rem;
+  right: 0.3rem;
+  width: 1.2rem;
+  height: 1.2rem;
+  border: 0.3rem solid white;
+}
+.online {
+  background-color: green;
+}
+.image-small {
+  width: 6.4rem;
+  height: 6.4rem;
+  border-radius: 50%;
+}
+.offline {
+  background-color: gray;
+}
