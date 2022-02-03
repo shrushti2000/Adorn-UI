@@ -1,7 +1,6 @@
 .btn {
   background-color: var(--primary-bg-color);
   width: auto;
-  height: auto;
   padding: 1.5rem;
   margin: 1rem;
   color: var(--white);
@@ -89,11 +88,6 @@
   color: var(--white);
   background-color: var(--info-color);
 }
-.btn-disabled {
-  opacity: 0.6;
-  cursor: not-allowed;
-  background-color: var(--info-color);
-}
 .btn-link {
   background-color: var(--primary-bg-color);
 }
@@ -107,8 +101,8 @@
 }
 .btn-floating-action {
   padding: 0px;
-  width: 60px;
-  height: 60px;
+  width: 6rem;
+  height: 6rem;
   border-radius: 50%;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   font-size: 2.5rem;
