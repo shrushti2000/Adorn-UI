@@ -1,0 +1,32 @@
+.alert-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 2rem;
+  border-radius: 5px;
+  font-family: "EB Garamond", serif;
+}
+.close-alert {
+  float: right;
+  cursor: pointer;
+  margin: 0.5rem;
+}
+.alert-success {
+  background-color: var(--success-color);
+}
+.alert-danger {
+  background-color: var(--warning-color);
+}
+.alert-warning {
+  background-color: var(--danger-color);
+}
+.alert-primary {
+  background-color: var(--primary-btn-color);
+}
+.alert-secondary {
+  background-color: var(--secondary-btn-color);
+}

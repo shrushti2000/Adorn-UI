@@ -17,7 +17,7 @@
 }
 .component-desc {
   font-size: 2rem;
-  color: var(--secondary-text-color);
+  color: var(--primary-text-color);
   margin: 1rem;
 }
 .component-container {
@@ -34,6 +34,12 @@
   border: 1px solid lightgray;
   border-radius: 5px;
   align-items: center;
+  flex-wrap: wrap;
+}
+.keyword-highlighter {
+  color: green;
+  color: var(--primary-bg-color);
+  font-weight: 900;
 }
 iframe {
   margin: 1rem;
