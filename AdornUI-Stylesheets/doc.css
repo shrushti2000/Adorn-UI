@@ -17,24 +17,32 @@
 }
 .component-desc {
   font-size: 2rem;
-  color: var(--secondary-text-color);
+  color: var(--primary-text-color);
   margin: 1rem;
 }
 .component-container {
   display: flex;
   flex-direction: column;
   padding: 1rem;
-  border: 1px solid lightgray;
+  border: 1px solid var(--secondary-text-color);
   border-radius: 5px;
 }
 .component-container-hz {
   display: flex;
   flex-direction: row;
   padding: 1rem;
-  border: 1px solid lightgray;
+  border: 1px solid var(--secondary-text-color);
   border-radius: 5px;
   align-items: center;
+  flex-wrap: wrap;
+}
+.keyword-highlighter {
+  color: green;
+  color: var(--primary-bg-color);
+  font-weight: 900;
 }
 iframe {
+  width: 90%;
   margin: 1rem;
+  border:0rem;
 }
