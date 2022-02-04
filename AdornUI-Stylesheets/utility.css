@@ -1,0 +1,8 @@
+.flex-vt{
+    display: flex;
+    flex-direction: column;
+}
+.flex-hz{
+    display: flex;
+    flex-direction: row;
+}

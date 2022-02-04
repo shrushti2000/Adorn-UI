@@ -1,0 +1,135 @@
+.card__container {
+  width: 25rem;
+  padding: 0.5rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+}
+.card__image {
+  width: 100%;
+  object-fit: cover;
+}
+.card__title {
+  font-size: 2rem;
+  margin: 0px;
+  color: var(--primary-text-color);
+}
+.card__description {
+  margin: 0px;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  color: var(--card-text-color);
+  font-weight: 600;
+}
+.product-price-wrapper {
+  width: 50%;
+  justify-content: space-around;
+  padding: 0.5rem;
+}
+.discounted-price,
+.discount {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0px;
+}
+.discount {
+  color: var(--primary-text-color);
+  font-weight: bold;
+}
+.ratings {
+  background-color: var(--primary-bg-color);
+  padding: 0.5rem;
+  width: fit-content;
+  border-radius: 5px;
+}
+.add-to-wishlist {
+  font-size: 3rem;
+  color: var(--primary-bg-color);
+}
+.add-to-wishlist:hover {
+  color: var(--primary-text-color);
+  cursor: pointer;
+}
+.card-last-row {
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1rem;
+}
+.add-to-cart {
+  font-size: 1rem;
+  background-color: var(--primary-text-color);
+  width: 90%;
+  font-weight: bold;
+}
+.add-to-cart:hover {
+  background-color: var(--secondary-bg-color);
+  color: var(--primary-text-color);
+  border: 0.1px solid var(--primary-text-color);
+}
+.img-hz {
+  flex-shrink: 2;
+  height: 100%;
+}
+.card-horizontal {
+  height: 25rem;
+  width: fit-content;
+}
+.card-horizontal-column {
+  height: fit-content;
+}
+.remove-from-wishlist {
+  font-size: 1rem;
+  width: 90%;
+}
+.badge-card {
+  position: relative;
+}
+.badge-w-card {
+  padding: 1rem;
+  font-size: 1rem;
+  margin: 0.5rem;
+  font-weight: bold;
+  color: var(--white);
+  background-color: var(--secondary-text-color);
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.card-overlay {
+  position: relative;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.text-overlay {
+  color: var(--white);
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+}
+.card__subtitle {
+  font-size: 1.5rem;
+  color: var(--card-text-color);
+  margin: 5px;
+}
+.card-row {
+  justify-content: space-between;
+}
+.close-card-btn {
+  cursor: pointer;
+  font-size: 2rem;
+  padding: 1rem;
+  color: var(--primary-text-color);
+}
+.close-card-btn:hover {
+  color: var(--secondary-text-color);
+}
