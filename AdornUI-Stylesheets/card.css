@@ -20,47 +20,47 @@
   color: var(--card-text-color);
   font-weight: 600;
 }
-.product-price-wrapper {
+.card__text-wrapper-1 {
   width: 50%;
   justify-content: space-around;
   padding: 0.5rem;
 }
-.discounted-price,
-.discount {
+.card__text-primary,
+.card__text-secondary {
   font-size: 1.5rem;
   font-weight: 700;
   margin: 0px;
 }
-.discount {
+.card__text-secondary {
   color: var(--primary-text-color);
   font-weight: bold;
 }
-.ratings {
+.card__text-wrapper-2 {
   background-color: var(--primary-bg-color);
   padding: 0.5rem;
   width: fit-content;
   border-radius: 5px;
 }
-.add-to-wishlist {
+.card__icon {
   font-size: 3rem;
   color: var(--primary-bg-color);
 }
-.add-to-wishlist:hover {
+.card__icon:hover {
   color: var(--primary-text-color);
   cursor: pointer;
 }
-.card-last-row {
+.card__footer {
   justify-content: space-around;
   align-items: center;
   margin-top: 1rem;
 }
-.add-to-cart {
+.card__btn-primary {
   font-size: 1rem;
   background-color: var(--primary-text-color);
   width: 90%;
   font-weight: bold;
 }
-.add-to-cart:hover {
+.card__btn-primary:hover {
   background-color: var(--secondary-bg-color);
   color: var(--primary-text-color);
   border: 0.1px solid var(--primary-text-color);
@@ -76,14 +76,14 @@
 .card-horizontal-column {
   height: fit-content;
 }
-.remove-from-wishlist {
+.card__btn-secondary {
   font-size: 1rem;
   width: 90%;
 }
-.badge-card {
+.card-badge {
   position: relative;
 }
-.badge-w-card {
+.card-badge-container {
   padding: 1rem;
   font-size: 1rem;
   margin: 0.5rem;
@@ -98,7 +98,7 @@
 .card-overlay {
   position: relative;
 }
-.overlay {
+.card-overlay-container {
   background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
   top: 0;
@@ -109,7 +109,7 @@
   align-items: center;
   border-radius: 10px;
 }
-.text-overlay {
+.card-text-overlay {
   color: var(--white);
   font-size: 3rem;
   font-weight: bold;
@@ -124,7 +124,7 @@
 .card-row {
   justify-content: space-between;
 }
-.close-card-btn {
+.card-close-btn {
   cursor: pointer;
   font-size: 2rem;
   padding: 1rem;
