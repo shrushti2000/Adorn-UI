@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./images/adornui-logo.png">
+    <title>AdornUI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../AdornUI-Stylesheets/AdornUi.css" />
+</head>
+
+<body>
+    <div class="page-layout">
+        <header class="page-header">
+            <h1 class="lib-name-1">Adorn <span class="lib-name-2">UI</span></h1>
+            <ul class="nav-items-wrapper">
+                <li class="nav-item"><a class="nav-item-link" href="home.html">Home</a></li>
+                <li class="nav-item"><a class="nav-item-link" href="alert.html">Documentation</a></li>
+            </ul>
+        </header>
+        <aside class="sidebar">
+            <h2 class="sidebar-heading">Components</h2><span><i class="fa fa-angle-down"></i></span>
+            <div class="sidebar-items">
+                <a class="sidebar-item-link" href="alert.html">Alerts</a>
+                <a class="sidebar-item-link" href="badges.html">Badges</a>
+                <a class="sidebar-item-link" href="avatar.html">Avatar</a>
+                <a class="sidebar-item-link" href="card.html">Cards</a>
+                <a class="sidebar-item-link" href="button.html">Buttons</a>
+                <a class="sidebar-item-link" href="input.html">Input</a>
+                <a class="sidebar-item-link" href="image.html">Image</a>
+                <a class="sidebar-item-link" href="navigation.html">Navigation</a>
+            </div>
+        </aside>
+        <main>
+            <section class="component-doc-container">
+                <h2 class="component-title">Inputs</h2>
+                <h5 class="component-desc">Inputs are used to accept data from the user. Below inputs are not of fixed
+                    lengths. You can add <span class="keyword-highlighter">w-20</span>,<span
+                        class="keyword-highlighter">w-30</span>,<span class="keyword-highlighter">w-40</span>classes and
+                    so on to get inputs of desired lengths.<br>You can add or remove <span
+                        class="keyword-highlighter">input-field-required</span> class according to the need.</h5>
+                <div class="component-container">
+                    <div class="form-group-container">
+                        <div class="form-group flex-vt">
+                            <label for="email-input" class="form-label form-field-required">Email</label>
+                            <input type="email" id="email-input" class="form-control" placeholder="abc@gmail.com"
+                                required />
+                            <small class="form-text text-mutated">We will never share your email with anyone.</small>
+                        </div>
+                        <div class="form-group flex-vt">
+                            <label for="name-input" class="form-label form-field-required">Name</label>
+                            <input type="text" id="name-input" class="form-control" placeholder="enter name" required />
+                        </div>
+                        <div class="form-group flex-vt">
+                            <label for="password-input" class="form-label form-field-required">Password</label>
+                            <input type="password" id="password-input" class="form-control"
+                                placeholder="enter password" />
+                        </div>
+                        <div class="form-group flex-vt">
+                            <label for="password-input" class="form-label form-field-required">Confirm Password</label>
+                            <input type="password" id="password-input" class="form-control"
+                                placeholder="enter password" />
+                            <small class="form-text text-error">Passwords do not match!</small>
+                        </div>
+                        <div class="form-group flex-vt">
+                            <label for="select-input" class="form-label form-field-required">Country</label>
+                            <select name="select-name" id="select-input">
+                                <option value="value1">India</option>
+                                <option value="value1">America</option>
+                                <option value="value1">France</option>
+                                <option value="value1">Australia</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <iframe src="https://www.thiscodeworks.com/embed/6200138d4dd44f0015f3cc95" frameborder="0"></iframe>
+            </section>
+        </main>
+        <footer class="footer">
+            <a class="social-media-link" href="https://github.com/shrushti2000"> <i class="fa fa-github"></i></a>
+            <a class="social-media-link" href="https://twitter.com/Shrushti2000"> <i class="fa fa-twitter"></i></a>
+            <a class="social-media-link" href="https://www.linkedin.com/in/shrushti-polekar-8255471a6"> <i
+                    class="fa fa-linkedin"></i></a>
+        </footer>
+    </div>
+    </div>
+</body>
+<script src="../sidebar.js"></script>
+<script src="../alert.js"></script>
+<script src="./input.js"></script>
+
+</html>

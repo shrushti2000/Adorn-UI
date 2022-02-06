@@ -1,0 +1,49 @@
+.form-group {
+  margin: 2rem;
+}
+.form-control {
+  font-size: 2rem;
+  height: 3rem;
+  border-radius: 5px;
+  border: 0.5px solid var(--primary-bg-color);
+  padding: 1rem;
+  color: var(--primary-text-color);
+}
+.form-label {
+  font-size: 2rem;
+  color: var(--primary-text-color);
+  font-weight: 900;
+}
+.form-text {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.text-mutated {
+  color: var(--primary-text-color);
+}
+.text-error {
+  color: var(--danger-color);
+}
+.form-field-required:after {
+  content: "*";
+  color: var(--danger-color);
+  font-size: 3rem;
+}
+#email-input:focus {
+  border: 2px solid var(--primary-text-color);
+}
+#password-input:focus {
+  border: 2px solid var(--primary-text-color);
+}
+::placeholder {
+  color: var(--grey);
+  opacity: 1;
+}
+#select-input {
+  height: 5rem;
+  font-size: 2rem;
+  border-radius: 5px;
+  border: 0.5px solid var(--primary-bg-color);
+  padding: 1rem;
+  color: var(--primary-text-color);
+}
