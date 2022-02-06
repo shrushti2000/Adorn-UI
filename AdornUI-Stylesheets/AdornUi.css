@@ -2,10 +2,12 @@
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Exo:wght@100&family=Quicksand:wght@300&family=Raleway:wght@200&family=Roboto+Slab:wght@100;200&family=Source+Serif+4:wght@300&display=swap");
 @import "./page-layout.css";
 @import "./doc.css";
+@import "./utility.css";
 @import "./avatar.css";
 @import "./badges.css";
 @import "./button.css";
 @import "./alert.css";
+@import "./card.css";
 html {
   font-size: 62.5%;
 }
@@ -22,6 +24,7 @@ html {
   --danger-color: #ff6363;
   --warning-color: #fbf46d;
   --info-color: #99b898;
+  --card-text-color: #696969;
 }
 body {
   box-sizing: border-box;
@@ -35,6 +38,6 @@ body {
     font-size: 50%;
   }
   iframe {
-    width: 50%;
+    width: auto;
   }
 }
