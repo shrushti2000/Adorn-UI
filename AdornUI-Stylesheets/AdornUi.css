@@ -8,6 +8,8 @@
 @import "./button.css";
 @import "./alert.css";
 @import "./card.css";
+@import "./image.css";
+@import "./input.css";
 html {
   font-size: 62.5%;
 }
@@ -25,6 +27,7 @@ html {
   --warning-color: #fbf46d;
   --info-color: #99b898;
   --card-text-color: #696969;
+  --grey: #c0c0c0;
 }
 body {
   box-sizing: border-box;
