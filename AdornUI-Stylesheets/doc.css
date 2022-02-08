@@ -14,6 +14,7 @@
 .component-subtitle {
   font-size: 3rem;
   font-weight: bold;
+  margin: 1rem;
 }
 .component-desc {
   font-size: 2rem;
