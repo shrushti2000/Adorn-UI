@@ -10,7 +10,7 @@
 @import "./card.css";
 @import "./image.css";
 @import "./input.css";
-@import "./modal.css";
+@import "./navigation.css";
 html {
   font-size: 62.5%;
 }
