@@ -35,7 +35,6 @@
   height: 20%;
   justify-content: space-between;
   align-items: center;
-  height: 5rem;
   background-color: var(--primary-text-color);
 }
 .display {
