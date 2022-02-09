@@ -1,0 +1,58 @@
+.doc-snackbar__container {
+  justify-content: space-around;
+  background-color: var(--dark-gray);
+  width: 50rem;
+  height: 5rem;
+  color: var(--white);
+  border-radius: 1rem;
+  align-items: center;
+}
+
+.snackbar__container {
+  justify-content: space-around;
+  background-color: var(--dark-gray);
+  width: 50rem;
+  height: 5rem;
+  color: var(--white);
+  border-radius: 1rem;
+  align-items: center;
+  visibility: hidden;
+}
+
+.snackbar__container--baseline {
+  position: fixed;
+  bottom: 1rem;
+  left: 40%;
+}
+
+.snackbar__container--leading {
+  position: fixed;
+  bottom: 1rem;
+  left: 0px;
+}
+
+.snackbar__text--primary {
+  font-size: 2rem;
+  color: var(--white);
+}
+
+.snackbar__text--secondary {
+  font-size: 2rem;
+  color: var(--secondary-bg-color);
+}
+.snackbar__text--stacked {
+  font-size: 2rem;
+  color: var(--secondary-text-color);
+  margin-right: 1rem;
+}
+
+.close-icon {
+  padding: 0.5rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.close-icon:hover {
+  background-color:var(--grey);
+  border-radius: 50%;
+}
