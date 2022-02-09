@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Shrushti Polekar" />
+    <meta name="title" content="Modal Component" />
+    <meta name="description" content="The Modal component can be used as popup to display important messages." />
+    <meta name="keywords" content="HTML, CSS, JS" />
+    <title>AdornUI-Modal</title>
+    <link rel="icon" type="image/x-icon" href="./images/adornui-logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../AdornUI-Stylesheets/AdornUi.css" />
+</head>
+
+<body>
+    <div class="page-layout">
+        <header class="page-header">
+            <h1 class="lib-name-1">Adorn <span class="lib-name-2">UI</span></h1>
+            <ul class="nav-items-wrapper">
+                <li class="nav-item"><a class="nav-item-link" href="home.html">Home</a></li>
+                <li class="nav-item"><a class="nav-item-link" href="alert.html">Documentation</a></li>
+            </ul>
+        </header>
+        <aside class="sidebar">
+            <h2 class="sidebar-heading">Components</h2><span><i class="fa fa-angle-down"></i></span>
+            <div class="sidebar-items">
+                <a class="sidebar-item-link" href="alert.html">Alerts</a>
+                <a class="sidebar-item-link" href="badges.html">Badges</a>
+                <a class="sidebar-item-link" href="avatar.html">Avatar</a>
+                <a class="sidebar-item-link" href="card.html">Cards</a>
+                <a class="sidebar-item-link" href="button.html">Buttons</a>
+                <a class="sidebar-item-link" href="input.html">Input</a>
+                <a class="sidebar-item-link" href="modal.html">Modal</a>
+                <a class="sidebar-item-link" href="navigation.html">Navigation</a>
+            </div>
+        </aside>
+        <main>
+            <section class="component-doc-container">
+                <h2 class="component-title">Modal</h2>
+                <h5 class="component-desc">A modal is a popup box or dialog-box that opens on the current page.
+                    It is used to grab user's attention. It disables the parent screen but keeps it visible by an
+                    overlay
+                    effect.</h5>
+                <div class="component-container">
+                    <div class="doc-modal-box w-50 flex-vt">
+                        <div class="modal-header flex-hz">
+                            <h4>Modal Header</h4>
+                            <i class="fa fa-times doc-modal-close-btn"></i>
+                        </div>
+                        <div class="modal-content">
+                            <p class="modal-content-text">Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
+                                since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                                make a type specimen book.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <h4>Modal Footer</h4>
+                        </div>
+                    </div>
+                </div>
+                <h5 class="component-subtitle">Demo</h5>
+                <div class="component-container">
+                    <!-- Button to open Modal -->
+                    <button class="btn btn-primary modal-open-btn">
+                        Open Modal
+                    </button>
+                    <!-- Modal container -->
+                    <div class="modal-overlay flex-vt">
+                        <div class="modal-box w-50 flex-vt">
+                            <div class="modal-header flex-hz">
+                                <h4>Modal Header</h4>
+                                <i class="fa fa-times modal-close-btn"></i>
+                            </div>
+                            <div class="modal-content">
+                                <p class="modal-content-text">Lorem Ipsum is simply dummy text of the printing and
+                                    typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
+                                    since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                                    make a type specimen book.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <h4>Modal Footer</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <iframe src="https://www.thiscodeworks.com/embed/620119c5ed723a001551bf8d" frameborder="0"></iframe>
+                <h5 class="component-subtitle">JavaScript</h5>
+                <iframe src="https://www.thiscodeworks.com/embed/62011ba2ed723a001551bf8f" frameborder="0"></iframe>
+            </section>
+        </main>
+        <footer class="footer">
+            <a class="social-media-link" href="https://github.com/shrushti2000"> <i class="fa fa-github"></i></a>
+            <a class="social-media-link" href="https://twitter.com/Shrushti2000"> <i class="fa fa-twitter"></i></a>
+            <a class="social-media-link" href="https://www.linkedin.com/in/shrushti-polekar-8255471a6"> <i
+                    class="fa fa-linkedin"></i></a>
+        </footer>
+    </div>
+    </div>
+</body>
+<script src="../sidebar.js"></script>
+<script src="../modal.js"></script>
+
+</html>
