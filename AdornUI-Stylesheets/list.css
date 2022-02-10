@@ -1,0 +1,31 @@
+.list {
+  padding: 2rem;
+  background-color: var(--primary-bg-color);
+  width: fit-content;
+}
+.list-title {
+  font-size: 3rem;
+  border-bottom: 1px solid black;
+  text-decoration: none;
+  list-style: none;
+  font-weight: 900;
+}
+.list-item {
+  font-size: 2rem;
+  text-decoration: none;
+  list-style: none;
+  font-weight: 700;
+  cursor: pointer;
+}
+.list-item-nested {
+  margin-left: 6rem;
+  text-decoration: none;
+  list-style: none;
+}
+.list-item:hover {
+  opacity: 0.4;
+}
+.stacked-list {
+  list-style: none;
+  margin: 0.5rem;
+}
