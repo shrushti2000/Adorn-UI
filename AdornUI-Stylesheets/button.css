@@ -1,6 +1,5 @@
 .btn {
   background-color: var(--primary-bg-color);
-  width: auto;
   padding: 1.5rem;
   margin: 1rem;
   color: var(--white);
@@ -9,7 +8,7 @@
   cursor: pointer;
   font-size: 2rem;
   text-align: center;
-}
+ }
 .btn-primary {
   background-color: var(--primary-bg-color);
 }

@@ -10,7 +10,7 @@
 @import "./card.css";
 @import "./image.css";
 @import "./input.css";
-@import "./modal.css";
+@import "./navigation.css";
 html {
   font-size: 62.5%;
 }
@@ -29,6 +29,7 @@ html {
   --info-color: #99b898;
   --card-text-color: #696969;
   --grey: #c0c0c0;
+  --search-bar-bg-color:#B8B8B8;
 }
 body {
   box-sizing: border-box;
