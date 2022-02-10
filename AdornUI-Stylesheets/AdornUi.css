@@ -11,6 +11,7 @@
 @import "./image.css";
 @import "./input.css";
 @import "./navigation.css";
+@import "./modal.css";
 html {
   font-size: 62.5%;
 }
