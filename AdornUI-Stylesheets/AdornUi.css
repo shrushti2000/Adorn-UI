@@ -15,6 +15,7 @@
 @import "./modal.css";
 @import "./list.css";
 @import "./TextUtilities.css";
+@import "./homepage.css";
 html {
   font-size: 62.5%;
 }
