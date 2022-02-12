@@ -13,7 +13,8 @@
 @import "./input.css";
 @import "./navigation.css";
 @import "./modal.css";
-@import "./homepage.css";
+@import "./list.css";
+@import "./TextUtilities.css";
 html {
   font-size: 62.5%;
 }
