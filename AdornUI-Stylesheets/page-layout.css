@@ -56,22 +56,25 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow-y:scroll ;
+  overflow-x: hidden;
 }
 .sidebar-heading {
   margin: 1rem;
-  padding: 1rem;
+  padding: 3.5rem;
   width: auto;
-  font-size: 3rem;
+  font-size: 2rem;
   color: var(--primary-text-color);
   font-family: "Source Serif 4", sans-serif;
 }
-.sidebar-items {
+.sidebar-items,.sidebar-items-getting-started {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100%;
   font-family: "Source Serif 4", sans-serif;
+  margin: 0.5rem;
 }
 .sidebar-item-link {
   color: var(--primary-text-color);
@@ -130,10 +133,16 @@ main {
   }
   .sidebar {
     height: fit-content;
+   
     background-color: var(--secondary-bg-color);
     width: auto;
+   
   }
+  .start-guide-text-link,.sidebar-items-getting-started{
+   display: none;
+}
   .sidebar-items {
+   
     display: none;
   }
   main {

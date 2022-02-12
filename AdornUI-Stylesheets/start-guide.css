@@ -1,50 +1,55 @@
-.installation{
-    margin: 3rem;
-
+.start-guide-text-link {
+  margin-top: 2rem;
 }
-.installation-desc{
-    font-size: 2rem;
+.start-guide-title {
+  font-size: 5rem;
+  margin: 1rem;
+  color: var(--primary-text-color);
+  font-weight: bold;
 }
-
-.flex-hz{
-    justify-content: center;
-    align-items: center;
-    
+.installation {
+  margin: 3rem;
 }
-.color-palette-section{
-    margin: 3rem;
+.start-guide-desc {
+  font-size: 2rem;
+  margin: 1rem;
+  color: var(--primary-text-color);
 }
-.color-palette-container{
-    width: 60rem;
-    height: 10rem;
- margin: 3rem;
- 
+.flex-hz {
+  justify-content: center;
+  align-items: center;
 }
-.color-palette-box{
-   justify-content: center;
-    width: 12rem;
-    height: 10rem;
-    padding-left: 2px;
-  
+.color-palette-section {
+  margin: 3rem;
 }
-.primary-color{
-    background-color: var(--primary-bg-color);
+.color-palette-container {
+  width: 60rem;
+  height: 10rem;
+  margin: 3rem;
 }
-.secondary-color{
-    background-color: var(--secondary-bg-color);
+.color-palette-box {
+  justify-content: center;
+  width: 12rem;
+  height: 10rem;
+  padding-left: 2px;
 }
-.success-color{
-    background-color: var(--success-color);
+.primary-color {
+  background-color: var(--primary-bg-color);
 }
-.danger-color{
-    background-color: var(--danger-color);
+.secondary-color {
+  background-color: var(--secondary-bg-color);
 }
-.warning-color{
-    background-color:var(--warning-color);
+.success-color {
+  background-color: var(--success-color);
+}
+.danger-color {
+  background-color: var(--danger-color);
+}
+.warning-color {
+  background-color: var(--warning-color);
 }
 @media only screen and (max-width: 720px) {
-    .color-palette-container{
-        width: auto;
-    }
-   
+  .color-palette-container {
+    width: auto;
   }
+}
