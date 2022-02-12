@@ -1,10 +1,11 @@
 # Adorn-UI - CSS Component Library to build beautiful UIs easily.
 
-![doc-img](adorn-ui-doc-img.png)
+![doc-img](Github Documentation assests/adorn-ui-doc-img.png)
 
 ### Adorn UI is an easy to use CSS component library supporting many of the most frequently used components.
 
-__________________________________________________________________
+
+![doc-demo](Github Documentation assests/adorn-ui-demo.gif)
 
 
 
