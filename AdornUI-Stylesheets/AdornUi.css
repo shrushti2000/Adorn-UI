@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Exo:wght@100&family=Quicksand:wght@300&family=Raleway:wght@200&family=Roboto+Slab:wght@100;200&family=Source+Serif+4:wght@300&display=swap");
 @import "./page-layout.css";
 @import "./doc.css";
+@import "./start-guide.css";
 @import "./utility.css";
 @import "./avatar.css";
 @import "./badges.css";
@@ -12,6 +13,7 @@
 @import "./input.css";
 @import "./navigation.css";
 @import "./modal.css";
+@import "./homepage.css";
 html {
   font-size: 62.5%;
 }

@@ -1,0 +1,32 @@
+.banner-container{
+    width: 50rem;
+  
+    
+    margin: 0px auto;
+}
+.banner-img{
+  
+    width: 100%;
+    height: auto;
+}
+.lib-desc-text{
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: var(--primary-text-color);
+    font-family: 'Source Serif 4', sans-serif;
+}
+.link-wrapper{
+   text-align: center;
+   margin: 0px auto;
+}
+.doc-link,.install-link{
+    font-size: 2rem;
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+@media only screen and (max-width: 720px) {
+  .banner-container{
+    width: auto;
+  }
+  }

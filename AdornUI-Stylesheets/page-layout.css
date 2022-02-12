@@ -19,10 +19,12 @@
 .lib-name-1 {
   color: var(--secondary-text-color);
   font-family: "Source Serif 4", sans-serif;
+  font-size: 2rem;
 }
 .lib-name-2 {
   color: var(--black);
   font-family: "Source Serif 4", sans-serif;
+  font-size: 2rem;
 }
 .nav-items-wrapper {
   display: flex;
