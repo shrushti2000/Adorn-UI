@@ -40,7 +40,7 @@ body {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
-  font-family: "Quicksand", sans-serif;
+  font-family: 'Roboto Slab', serif;
   overflow: hidden;
 }
 @media only screen and (max-width: 720px) {
