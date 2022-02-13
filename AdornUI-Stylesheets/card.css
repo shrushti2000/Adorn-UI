@@ -49,6 +49,22 @@
   color: var(--primary-text-color);
   cursor: pointer;
 }
+.card-icon-plus{
+  font-size: 1rem;
+  padding: 5px;
+  background-color:var(--primary-text-color);
+  color: var(--white);
+  cursor: pointer;
+  margin: 1px;
+  border-radius: 50%;
+}
+.card-text{
+  border: 1px solid black;
+  padding:0px 5px;
+  margin:0.5px 2px;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
 .card__footer {
   justify-content: space-around;
   align-items: center;
@@ -70,11 +86,11 @@
   height: 100%;
 }
 .card-horizontal {
-  height: 20rem;
+  height: 25rem;
   width: 60rem;
 }
 .card-horizontal-column {
-  height: 20rem;
+  height: 25rem;
 }
 .card__btn-secondary {
   font-size: 1rem;
