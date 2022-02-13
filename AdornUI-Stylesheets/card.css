@@ -70,11 +70,11 @@
   height: 100%;
 }
 .card-horizontal {
-  height: 25rem;
-  width: fit-content;
+  height: 20rem;
+  width: 60rem;
 }
 .card-horizontal-column {
-  height: fit-content;
+  height: 20rem;
 }
 .card__btn-secondary {
   font-size: 1rem;
@@ -133,3 +133,4 @@
 .close-card-btn:hover {
   color: var(--secondary-text-color);
 }
+
