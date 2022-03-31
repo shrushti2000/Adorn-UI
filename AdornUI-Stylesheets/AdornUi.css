@@ -17,6 +17,7 @@
 @import "./TextUtilities.css";
 @import "./homepage.css";
 @import "./rating.css";
+@import "./grid.css";
 html {
   font-size: 62.5%;
 }
