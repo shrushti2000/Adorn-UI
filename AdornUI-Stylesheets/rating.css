@@ -1,0 +1,48 @@
+.rating-wrapper {
+  direction: rtl;
+  margin: 20px;
+  width: fit-content;
+}
+
+.rating-wrapper input {
+  display: none;
+}
+
+.rating-wrapper label {
+  display: inline-block;
+  position: relative;
+  width: 5rem;
+  cursor: pointer;
+}
+
+.rating-wrapper label:before {
+  content: "\2605";
+  position: absolute;
+  display: inline-block;
+  font-size: 5rem;
+  top: 0px;
+  left: 0px;
+}
+
+.rating-wrapper label:after {
+  content: "\2605";
+  position: absolute;
+  display: inline-block;
+  font-size: 5rem;
+  top: 0px;
+  left: 0px;
+  color: yellow;
+  opacity: 0;
+}
+.rating-wrapper label:hover:after {
+  opacity: 1;
+}
+
+.rating-wrapper label:hover ~ label:after,
+.rating-wrapper input:checked ~ label:after {
+  opacity: 1;
+}
+
+.rating-code-snippet {
+  margin-top: 5rem;
+}

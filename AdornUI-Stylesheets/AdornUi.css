@@ -16,6 +16,9 @@
 @import "./list.css";
 @import "./TextUtilities.css";
 @import "./homepage.css";
+@import "./rating.css";
+@import "./grid.css";
+@import "./toast.css";
 html {
   font-size: 62.5%;
 }
